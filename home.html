@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css">
+    
+</head>
+
+<link rel="stylesheet" href="home.css">
+<!--header section starts-->
+<header class="header">
+    <div class="logoContent">
+      <a href="index.html" class="logo"><img src="logo2.png" alt="" width="50px" height="50px"></a>
+      <h1 class="logoName">Rumah Ilmu</h1>
+    </div>
+
+  <nav class="navbar">
+      <a href="home.html" class="hover-underline">Home</a>
+      <a href="about.html" class="hover-underline">About</a>
+      <a href="courses.html" class="hover-underline">Courses</a>
+      <a href="teacher.html" class="hover-underline">Teacher</a>
+      <a href="review.html" class="hover-underline">Review</a>
+      <a href="contact.html" class="hover-underline">Contact</a>
+</nav>
+
+  <div class="icons">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+  </div>
+</header>
+
+home section starts--
+<section class="home" id="home">
+    <div class="content">
+        <h3>Bimbel terbaik bisa kamu temukan disini!</h3>
+        <p>Rumah Ilmu hadir untuk kamu yang berada di bangku SD, SMP, dan SMA. </p>
+            <a href="#" class="btn">
+                <span class="text text-1">learn more</span>
+                <span class="text text-2" aria hidden="'true">learn more</span>
+            </a>
+        </div>
+</section>
+
+<!--fasilitas-->
+<h1 class="capt">Our Facilities</h1>
+<body>
+  <section class="section">
+    <div class="slider">
+        <div class="slide"> 
+          <input type="radio" name="radio-btn" id="radio-1" checked>
+          <input type="radio" name="radio-btn" id="radio-2">
+          <input type="radio" name="radio-btn" id="radio-3">
+          <input type="radio" name="radio-btn" id="radio-4">
+          
+          <div class="st first">
+            <img src="f.png" alt="">
+          </div>
+  
+          <div class="st">
+            <img src="ff.png" alt="">
+          </div>
+  
+          <div class="st">
+            <img src="fff.png" alt="">
+          </div>
+
+          <div class="st">
+            <img src="ffff.png" alt="">
+          </div>
+  
+          <div class="nav-auto">
+            <label for="radio-1" class="a-b1"></label>
+            <label for="radio-2" class="a-b2"></label>
+            <label for="radio-3" class="a-b3"></label>
+            <label for="radio-4" class="a-b4"></label>
+          </div>
+        </div>
+  
+        <div class="nav-m">
+          <label for="radio-1" class="m-btn"></label>
+          <label for="radio-2" class="m-btn"></label>
+          <label for="radio-3" class="m-btn"></label>
+          <label for="radio-4" class="m-btn"></label>
+        </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+  var counter=1;
+  setInterval(function(){
+    document.getElementById('radio-' + counter).checked=true;
+    counter++;
+    if(counter > 4){
+      counter = 1;
+    }
+  },5000);
+  </script>
+</body>
+
+    <!--footer-->
+    <section class="footer" id="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>Rumah Ilmu</h3>
+            <p>Bimbel Terbaik di Indonesia</p>
+          </div>
+      
+          <div class="box">
+            <h3>Find Us Here</h3>
+            <div class="share">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+          </div>
+      
+          <div class="box">
+            <h3>Produk Rumah Ilmu</h3>
+            <p>SD</p>
+            <p>SMP</p>
+            <p>SMA</p>
+          </div>
+        </div>
+        <div class="credit">PT Rumah Ilmu, <span>2024 </span>| All rights are reserved! </div>
+      </section>
